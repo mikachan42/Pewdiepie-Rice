@@ -1,0 +1,65 @@
+
+# ── Window Settings ────────────────────────────────────────────────────────
+[window]
+opacity = 0.50                 
+decorations = "full"            
+blur = true                      
+
+# ── Font Settings ────────────────────────────────────────────────────────
+[font]
+size = 12.0
+
+[font.bold]
+family = "Inconsolata"
+style  = "Bold"
+
+[font.bold_italic]
+family = "Inconsolata"
+style  = "Bold Italic"
+
+[font.italic]
+family = "Inconsolata"
+style  = "Italic"
+
+[font.normal]
+family = "Inconsolata"
+style  = "Regular"
+
+# ── Cursor & Selection Colours ───────────────────────────────────────────
+[colors.cursor]
+cursor = "#e5c07b"
+text   = "#e06c75"
+
+[colors.selection]
+text       = "#e5c07b"
+background = "#828997"
+
+# ── Primary Colours ───────────────────────────────────────────────────────
+[colors.primary]
+background = "#16191c"           # background
+foreground = "#9cdef2"           # color
+
+# ── Normal Palette (ANSI) ────────────────────────────────────────────────
+[colors.normal]
+black   = "#2e3440"
+red     = "#e06c75"
+green   = "#9cdef2"
+yellow  = "#e5c07b"
+blue    = "#61afef"
+magenta = "#c678dd"
+cyan    = "#9cdef2"
+white   = "#828997"
+
+# ── Mouse & Environment ───────────────────────────────────────────────────
+[selection]
+save_to_clipboard = true         # Copy automatic to clipboard
+
+[scrolling]
+history = 10000                  
+multiplier = 2                  
+
+[mouse]
+hide_when_typing = true
+
+[env]
+TERM = "xterm-256color"         
