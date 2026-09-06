@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "nokori_theme",
+  "theme": {
+    "images": {},
+    "properties": {},
+    "colors": {
+      "toolbar": "rgb(59, 66, 82)",
+      "toolbar_text": "rgb(229, 192, 123)",
+      "frame": "rgb(40, 44, 52)",
+      "tab_background_text": "rgb(156, 222, 242)",
+      "toolbar_field": "rgb(52, 53, 55)",
+      "toolbar_field_text": "rgb(229, 146, 25)",
+      "tab_line": "rgb(156, 222, 242)",
+      "popup": "rgb(0, 0, 0)",
+      "popup_text": "rgb(60, 105, 134)",
+      "tab_loading": "rgb(156, 222, 242)"
+    }
+  }
+}
